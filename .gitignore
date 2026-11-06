@@ -1,0 +1,21 @@
+# --- Python environment & caches (never commit) ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Office lock files ---
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
+# NOTE: the .mp4 videos and presentation/frames/ ARE committed on purpose.

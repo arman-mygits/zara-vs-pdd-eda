@@ -1,0 +1,21 @@
+# EDA "Zara vs Temu - La Temporada de BBC"
+# Versions below are the ones the pipeline was developed and verified against
+# (Python 3.14, Windows 11). Lower bounds are given rather than pins so the
+# project still installs on a bootcamp Anaconda environment.
+
+pandas>=2.2          # verified on 3.1.1
+numpy>=1.26          # verified on 2.5.4
+matplotlib>=3.8      # verified on 3.11.2
+seaborn>=0.13        # verified on 0.13.2
+yfinance>=0.2.40     # verified on 1.8.0
+scipy>=1.11          # verified on 1.18.1  (hypothesis tests)
+tabulate>=0.9        # required by DataFrame.to_markdown()
+
+# Demo interactivo: streamlit run src/app.py
+streamlit>=1.30       # verified on 1.66.1
+
+# Test suite: python -m pytest tests/ -v
+pytest>=8.0            # verified on 9.2.0
+
+# Only needed to open / re-run src/memoria.ipynb
+jupyter>=1.0
